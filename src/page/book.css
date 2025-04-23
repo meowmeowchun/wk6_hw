@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+.book-container {
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .book-title {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .book-author {
+    font-size: 1.2rem;
+    color: #ffdb3ce0;
+    margin-bottom: 20px;
+  }
+  
+  .book-cover {
+    width: 200px;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-summary {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 20px 20%;
+    padding: 1%;
+    color: #ffffff;
+    text-align: left;
+  }
+  
+  .book-details {
+    font-size: 1rem;
+    margin: 10px 0;
+    color: #ffdb3ce0;
+    text-shadow: #000000 1px 1px 1px;
+  }
+  
+  .review-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #000000;
+    background-color: #ffe365;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 5%;
+  }
+  
+  .review-button:hover {
+    background-color: #1f1f1f;
+    color: #ffe365;
+  }
+
+  .back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #000000;
+    background-color: #ffe365;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 5%;
+  }
+
+  .back-button:hover {
+    background-color: #1f1f1f;
+    color: #ffe365;
+    font-family:'Times New Roman', Times, serif;
+  }
+
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+    max-height: 80vh; /* Limit the height of the modal to 80% of the viewport */
+    overflow-y: auto; /* Enable vertical scrolling if content overflows */
+    text-align: left;
+    color: black;
+  }
+
+  .modal-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .close-button {
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background-color: #ffe365;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+  }
+  
+  .close-button:hover {
+    background-color: #918038;
+  }
+
+  label {
+    color: white;
+    margin-right: 3px;
+  }
+  select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+
+  .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

@@ -1,0 +1,24 @@
+.cart-summary {
+    position: fixed;
+    top: 40px; /* Adjust this value to control vertical positioning */
+    right: 20px; /* Adjust this value to control horizontal positioning */
+    cursor: pointer;
+    z-index: 1000; /* Ensures it stays on top of other elements */
+    background-color: white;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .cart-badge {
+    position: absolute;
+    top: -5px; /* Adjust to position the badge relative to the cart icon */
+    right: -5px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+  }

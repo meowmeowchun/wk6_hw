@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(45deg, #383838, #000000, #3a3a3a);
+  background-size: 200% 200%;
+  animation: backgroundFade 10s infinite;
+}
+
+
+@keyframes backgroundFade {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+div {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-family: 'Monoton', cursive;
+  font-size: 5rem;
+  color: #ffe365;
+  margin: 20px;
+}
+
+h1:hover {
+  transform: scale(1.05); 
+}
+
+a {
+  text-decoration: none;
+  margin: 10px;
+  color: #ffffff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #ffe365;
+}
+
+img {
+  width: 150px;
+  height: auto;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+.link-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer {
+  width: 100%;
+  margin-top: 5%;
+  padding: 10px 0;
+  background-color: #ffe3658a;
+  color: #000000;
+  text-align: center;
+  font-size: 0.9rem;
+  border-radius: 3px;
+}
+
+.footer p {
+  margin: 0;
+}
